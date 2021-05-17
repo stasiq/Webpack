@@ -1,14 +1,14 @@
 {
-  "name": "webpack-lesson",
+  "name": "start",
   "version": "1.0.0",
-  "description": "simple webpack",
+  "description": "start webpack",
   "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --mode production",
     "dev": "cross-env NODE_ENV=development webpack --mode development",
     "start": "cross-env NODE_ENV=development webpack serve --mode development"
   },
-  "author": "Maksim",
+  "author": "Stasiq",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.7",
@@ -44,5 +44,17 @@
   "dependencies": {
     "focus-visible": "^5.2.0",
     "normalize.css": "^8.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stasiq/Webpack.git"
+  },
+  "keywords": [
+    "main",
+    "webpack"
+  ],
+  "bugs": {
+    "url": "https://github.com/stasiq/Webpack/issues"
+  },
+  "homepage": "https://github.com/stasiq/Webpack#readme"
 }
